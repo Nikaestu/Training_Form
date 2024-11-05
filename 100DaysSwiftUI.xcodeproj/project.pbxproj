@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		02519BD62C6B4E8600EF9889 /* _00DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BD52C6B4E8600EF9889 /* _00DaysSwiftUIApp.swift */; };
-		02519BD82C6B4E8600EF9889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BD72C6B4E8600EF9889 /* ContentView.swift */; };
 		02519BDA2C6B4E8700EF9889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02519BD92C6B4E8700EF9889 /* Assets.xcassets */; };
 		02519BDD2C6B4E8700EF9889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02519BDC2C6B4E8700EF9889 /* Preview Assets.xcassets */; };
 		02519BE72C6B4E8700EF9889 /* _00DaysSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BE62C6B4E8700EF9889 /* _00DaysSwiftUITests.swift */; };
 		02519BF12C6B4E8700EF9889 /* _00DaysSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BF02C6B4E8700EF9889 /* _00DaysSwiftUIUITests.swift */; };
 		02519BF32C6B4E8700EF9889 /* _00DaysSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BF22C6B4E8700EF9889 /* _00DaysSwiftUIUITestsLaunchTests.swift */; };
+		02519C002C6B4ED300EF9889 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02519BFF2C6B4ED300EF9889 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		02519BD22C6B4E8600EF9889 /* 100DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02519BD52C6B4E8600EF9889 /* _00DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _00DaysSwiftUIApp.swift; sourceTree = "<group>"; };
-		02519BD72C6B4E8600EF9889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02519BD92C6B4E8700EF9889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02519BDC2C6B4E8700EF9889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02519BE22C6B4E8700EF9889 /* 100DaysSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100DaysSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		02519BEC2C6B4E8700EF9889 /* 100DaysSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100DaysSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02519BF02C6B4E8700EF9889 /* _00DaysSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _00DaysSwiftUIUITests.swift; sourceTree = "<group>"; };
 		02519BF22C6B4E8700EF9889 /* _00DaysSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _00DaysSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02519BFF2C6B4ED300EF9889 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				02519BD52C6B4E8600EF9889 /* _00DaysSwiftUIApp.swift */,
-				02519BD72C6B4E8600EF9889 /* ContentView.swift */,
+				02519BFF2C6B4ED300EF9889 /* FormView.swift */,
 				02519BD92C6B4E8700EF9889 /* Assets.xcassets */,
 				02519BDB2C6B4E8700EF9889 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02519BD82C6B4E8600EF9889 /* ContentView.swift in Sources */,
+				02519C002C6B4ED300EF9889 /* FormView.swift in Sources */,
 				02519BD62C6B4E8600EF9889 /* _00DaysSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
